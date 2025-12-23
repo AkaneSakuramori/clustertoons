@@ -1,119 +1,19 @@
-{
-  "slug": "gachiakuta",
-  "title": "Gachiakuta",
-  "year": 2025,
-  "episodes": 21,
-  "status": "Complete Batch [21/24]",
-  "quality": "1080p CR WEB-DL",
-  "audio": "MULTi (Japanese • English • Hindi • Tamil • Telugu)",
-  "subs": "English",
-  "encoder": "Cluster Rips",
-"poster": "/images/IMG_20251223_154853_209.png",
-  "downloads": [
-    {
-      "episode": "E01",
-      "size": "1.44 GB",
-      "url": "https://ybxlink.vercel.app/download?path=bca94d5a605e3659dc45b136"
-    },
-    {
-      "episode": "E02",
-      "size": "1.44 GB",
-      "url": "https://ybxlink.vercel.app/download?path=2edb042ce35344c83b0b7f7a"
-    },
-    {
-      "episode": "E03",
-      "size": "1.44 GB",
-      "url": "https://ybxlink.vercel.app/download?path=74be5f4a3c4bfae8a7573097"
-    },
-    {
-      "episode": "E04",
-      "size": "1.44 GB",
-      "url": "https://ybxlink.vercel.app/download?path=f8a2af20d1f8fe6405805963"
-    },
-    {
-      "episode": "E05",
-      "size": "1.44 GB",
-      "url": "https://ybxlink.vercel.app/download?path=dfae820f786f0f2b4e44089e"
-    },
-    {
-      "episode": "E06",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=fe9e23ee37eb5e17f7ec84c4"
-    },
-    {
-      "episode": "E07",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=e560ff3c943a30d45bcafed2"
-    },
-    {
-      "episode": "E08",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=00768f500a781e8e047d1146"
-    },
-    {
-      "episode": "E09",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=b6979098a8bc5201d739f738"
-    },
-    {
-      "episode": "E10",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=8893e7863dcd88b8ea64739d"
-    },
-    {
-      "episode": "E11",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=d8c68b5bec4b3813a280c392"
-    },
-    {
-      "episode": "E12",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=2c0bc5b96e232a88e29efed1"
-    },
-    {
-      "episode": "E13",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=93acecf97462d1a9f0aa886e"
-    },
-    {
-      "episode": "E14",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=fa1bb04bf2d668a2837ca6e4"
-    },
-    {
-      "episode": "E15",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=337a3462536560d9a512b555"
-    },
-    {
-      "episode": "E16",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=6b7910a9d95019752f009742"
-    },
-    {
-      "episode": "E17",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=002dd16f3dc52fc36650e66e"
-    },
-    {
-      "episode": "E18",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=bf120ccac388d633750e45e6"
-    },
-    {
-      "episode": "E19",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=08e7e1bcad876b28f4cd332a"
-    },
-    {
-      "episode": "E20",
-      "size": "1.48 GB",
-      "url": "https://ybxlink.vercel.app/download?path=071599d6edb07e4cc29d070e"
-    },
-    {
-      "episode": "E21",
-      "size": "1.47 GB",
-      "url": "https://ybxlink.vercel.app/download?path=15a336aee8efb60c434e016b"
-    }
-  ]
-}
+[
+  {
+    "slug": "gachiakuta",
+    "title": "Gachiakuta",
+    "year": 2025,
+    "episodes": 21,
+    "status": "Complete Batch [21/24]",
+    "quality": "1080p CR WEB-DL",
+    "audio": "MULTi (Japanese • English • Hindi • Tamil • Telugu)",
+    "subs": "English",
+    "encoder": "Cluster Rips",
+    "poster": "/images/IMG_20251223_154853_209.png",
+    "downloads": [
+      { "episode": "E01", "size": "1.44 GB", "url": "https://ybxlink.vercel.app/download?path=bca94d5a605e3659dc45b136" },
+      { "episode": "E02", "size": "1.44 GB", "url": "https://ybxlink.vercel.app/download?path=2edb042ce35344c83b0b7f7a" },
+      { "episode": "E03", "size": "1.44 GB", "url": "https://ybxlink.vercel.app/download?path=74be5f4a3c4bfae8a7573097" }
+    ]
+  }
+]
