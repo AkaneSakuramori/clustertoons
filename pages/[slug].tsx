@@ -5,8 +5,8 @@ export default function AnimePage({ post }: any) {
 
   // 🔹 Build ALL links text (NO objects)
   const allLinksText = post.downloads
-    .map((d: any) => `${d.episode} → ${d.url}`)
-    .join("\n");
+  .map((d: any) => d.url)
+  .join("\n");
 
   return (
     <main className="max-w-4xl mx-auto p-6">
