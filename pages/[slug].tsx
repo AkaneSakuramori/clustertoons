@@ -1,14 +1,20 @@
 import posts from "../data/posts.json";
 
 export default function AnimePage({ post }: any) {
-  const copy = (link: string) => {
-    navigator.clipboard.writeText(link);
-    alert("Link copied");
-  };
+  if (!post) return <h1>Not Found</h1>;
+
+  // 🔹 Build ALL links text (NO objects)
+  const allLinksText = post.downloads
+    .map((d: any) => `${d.episode} → ${d.url}`)
+    .join("\n");
 
   return (
     <main className="max-w-4xl mx-auto p-6">
-      <img src={post.poster} className="w-full rounded-lg mb-6" />
+      <img
+        src={post.poster}
+        alt={post.title}
+        className="w-full rounded-lg mb-6"
+      />
 
       <h1 className="text-3xl font-bold mb-2">
         {post.title} [{post.year}]
@@ -23,15 +29,34 @@ export default function AnimePage({ post }: any) {
         <p><b>Type:</b> {post.status}</p>
       </div>
 
-      <h2 className="text-xl font-semibold mb-3">Download Links</h2>
+      {/* 🔥 COPY ALL LINKS PANEL */}
+      <h2 className="text-xl font-semibold mb-3">All Download Links</h2>
 
-      {post.downloads.map((link: string, i: number) => (
+      <div className="bg-card rounded-lg p-4 mb-6">
+        <textarea
+          readOnly
+          value={allLinksText}
+          className="w-full h-64 bg-black text-green-400 text-sm font-mono p-3 rounded resize-none"
+        />
+
         <button
-          key={i}
-          onClick={() => copy(link)}
-          className="w-full bg-accent py-3 rounded-lg mb-3 hover:opacity-90"
+          onClick={() => navigator.clipboard.writeText(allLinksText)}
+          className="mt-3 w-full bg-accent py-3 rounded-lg hover:opacity-90"
         >
-          Copy Link {i + 1}
+          Copy All Links
+        </button>
+      </div>
+
+      {/* OPTIONAL: Individual episode buttons */}
+      <h2 className="text-xl font-semibold mb-3">Episode-wise Copy</h2>
+
+      {post.downloads.map((d: any) => (
+        <button
+          key={d.episode}
+          onClick={() => navigator.clipboard.writeText(d.url)}
+          className="w-full bg-gray-800 py-3 rounded-lg mb-2 hover:bg-gray-700"
+        >
+          Copy {d.episode}
         </button>
       ))}
     </main>
