@@ -3,8 +3,8 @@
     "slug": "gachiakuta",
     "title": "Gachiakuta",
     "year": 2025,
-    "episodes": 21,
-    "status": "Complete Batch [21/24]",
+    "episodes": 22,
+    "status": "Complete Batch [22/24]",
     "quality": "1080p CR WEB-DL",
     "audio": "MULTi (Japanese • English • Hindi • Tamil • Telugu)",
     "subs": "English",
@@ -115,6 +115,12 @@
         "episode": "E21",
         "size": "1.47 GB",
         "url": "https://ybxlink.vercel.app/download?path=15a336aee8efb60c434e016b"
+      },
+      {
+        "episode": "E22",
+        "size": "1.47 GB",
+        "url": "https://ybxlink.vercel.app/download?path=ec84b1422b321bd386ca7af2",
+        "stream": "https://ybxlink.vercel.app/watch?path=ec84b1422b321bd386ca7af2"
       }
     ]
   }
